@@ -23,3 +23,22 @@ Introducimos por linea de comandos **git branch bugFix** y asi lograremos crear 
 Vemos como la interfaz corrobora la creación de la misma, pero aun estamos en la rama main
 
 ![Alt text](interfazPrimeraRama.jpg)
+
+Cambiamos a la rama creada por medio de **git checkout bugFix**
+
+![Alt text](codigoCambioARama.jpg)
+
+Mostrando el cambio correspondiente en la interfaz
+
+![Alt text](interfazCambioRama.jpg)
+
+Una vez cambiados, para hacer el merge deberemos commitear la rama creada.
+Como ya hemos aprendido, realizaremos este paso por medio del comando **git commit -m "mensaje"
+
+![Alt text](codigoCommitRama.jpg)
+
+>Vemos como el tutorial nos permite realizar el commit sin añadir texto informativo a la entrega. En la practica, es siempre recomendable añadir texto informativo para el tracking del proyecto por si otros desarrolladores se involucran en nuestro proyecto
+
+La interfaz grafica evoluciona en consecuencia al commit realizado
+
+![Alt text](interfazCommitRama.jpg)
