@@ -37,7 +37,7 @@ Como ya hemos aprendido, realizaremos este paso por medio del comando **git comm
 
 ![Alt text](codigoCommitRama.jpg)
 
->Vemos como el tutorial nos permite realizar el commit sin añadir texto informativo a la entrega. En la practica, es siempre recomendable añadir texto informativo para el tracking del proyecto por si otros desarrolladores se involucran en nuestro proyecto
+>Vemos como el tutorial nos permite realizar el commit sin añadir texto informativo a la entrega. En la practica, es siempre recomendable añadir texto para el tracking del proyecto informando así a otros desarrolladores de los cambios realizados
 
 La interfaz grafica evoluciona en consecuencia al commit realizado
 
