@@ -42,3 +42,38 @@ Como ya hemos aprendido, realizaremos este paso por medio del comando **git comm
 La interfaz grafica evoluciona en consecuencia al commit realizado
 
 ![Alt text](interfazCommitRama.jpg)
+
+### Merge de rama creada
+
+Una vez commiteada la rama, volveremos a la rama principal con el comando git checkout main
+
+![Alt text](codigoCambioAMain.jpg)
+
+Vemos como el asterisco ha vuelto a la rama principal Main
+
+![Alt text](interfazCambioAMain.jpg)
+
+Una vez estamos situados de nuevo en la rama principal, deberemos hacer un commit del mismo para asi llegar al mismo nivel de proyecto que la rama creada
+
+Hacemos uso de nuevo de **git commit**
+
+![Alt text](codigoCommitMain.jpg)
+
+Y ahora podemos observar que se ha producido un importante cambio en la interfaz, al situarnos al mismo nivel de proyecto, tanto rama creada bugFix como la rama principal main están a la par
+
+![Alt text](interfazCommitMain.jpg)
+
+Finalmente, realizamos el merge de la rama bugBix a la rama Main para asi poder tener todo el trabajo unificado, es decir en una misma rama Master:
+
+Para el merge utilizaremos el comando **git merge bugFix**
+
+![Alt text](codigoMergeBugFix.jpg)
+
+Acabando exitosamente el ejercicio :D
+
+![Alt text](interfazMergeRama.jpg)
+
+Vemos como se ha integrado la rama Main a nuestra rama Master
+
+
+
